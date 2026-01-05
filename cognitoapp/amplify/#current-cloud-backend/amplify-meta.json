@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactcognito-dev-e7452-authRole",
+      "UnauthRoleArn": "arn:aws:iam::385704849548:role/amplify-reactcognito-dev-e7452-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::385704849548:role/amplify-reactcognito-dev-e7452-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-reactcognito-dev-e7452-deployment",
+      "UnauthRoleName": "amplify-reactcognito-dev-e7452-unauthRole",
+      "StackName": "amplify-reactcognito-dev-e7452",
+      "StackId": "arn:aws:cloudformation:eu-north-1:385704849548:stack/amplify-reactcognito-dev-e7452/df01bab0-e4c8-11f0-8636-0eab6e901829",
+      "AmplifyAppId": "d3cp8e9athswrg"
+    }
+  },
+  "auth": {
+    "reactcognito79d1f44f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactcognito-dev-e7452-deployment/amplify-cfn-templates/auth/reactcognito79d1f44f-cloudformation-template.json",
+        "logicalId": "authreactcognito79d1f44f"
+      },
+      "lastPushTimeStamp": "2025-12-29T15:17:52.047Z",
+      "output": {
+        "UserPoolId": "eu-north-1_NthcH3nbZ",
+        "AppClientIDWeb": "1o4a06vb9fqlmee2jtjgva57lb",
+        "AppClientID": "5ne9ibbthcdn63b3qiq5s60i38",
+        "IdentityPoolId": "eu-north-1:5e5cf5b8-bf5d-4d0d-b7b1-34d9c1c4ff47",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-north-1:385704849548:userpool/eu-north-1_NthcH3nbZ",
+        "IdentityPoolName": "reactcognito79d1f44f_identitypool_79d1f44f__dev",
+        "UserPoolName": "reactcognito79d1f44f_userpool_79d1f44f"
+      },
+      "lastPushDirHash": "ksmRoRVRE5Sf2LVHbCDENLgbUGo="
+    }
+  }
+}
